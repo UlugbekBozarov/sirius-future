@@ -1,10 +1,11 @@
+import { ThemeProvider } from "providers";
 import Router from "routers/Router";
 
 function App() {
   return (
-    <div className="App">
+    <ThemeProvider>
       <Router />
-    </div>
+    </ThemeProvider>
   );
 }
 

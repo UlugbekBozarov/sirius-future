@@ -1,1 +1,13 @@
-{}
+{
+  "Login to Sirius Future": "Login to Sirius Future",
+  "Use email / password": "Use email: {{email}} / password: {{password}}",
+  "E-mail": "E-mail",
+  "Password": "Password",
+  "Remember me": "Remember me",
+  "Login": "Login",
+  "I forgot password": "I forgot password",
+  "Login as a coach": "Login as a coach",
+  "Don't have an account?": "Don't have an account?",
+  "Register": "Register",
+  "E-mail or password is incorrect": "E-mail or password is incorrect"
+}

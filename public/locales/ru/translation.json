@@ -1,1 +1,13 @@
-{}
+{
+  "Login to Sirius Future": "Вход в Sirius Future",
+  "Use email / password": "Используйте электронную почту: {{email}} / пароль: {{password}}.",
+  "E-mail": "E-mail",
+  "Password": "Пароль",
+  "Remember me": "Запомнить меня",
+  "Login": "Войти",
+  "I forgot password": "Я забыл пароль",
+  "Login as a coach": "Войти как тренер",
+  "Don't have an account?": "Нет аккаунта?",
+  "Register": "Зарегистрироваться",
+  "E-mail or password is incorrect": "Email или пароль указан неверно"
+}

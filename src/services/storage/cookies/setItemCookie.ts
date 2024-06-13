@@ -4,7 +4,9 @@ const setItemCookie = (name: string, value: any, options: any = {}) => {
     ...options,
   };
 
+  console.log("expires: ", options?.expires);
   if (options?.expires instanceof Date) {
+    console.log("expires: ", options?.expires);
     options.expires = options.expires.toUTCString();
   }
 
