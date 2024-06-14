@@ -43,7 +43,7 @@ const Layout = () => {
           height="100%"
           sx={{
             overflowY: "auto",
-            padding: { xs: "0px 10px 20px 10px", md: "20px 50px 50px 32px" },
+            padding: { xs: "20px 10px 20px 10px", md: "20px 50px 20px 32px" },
           }}
         >
           <Suspense fallback={<Spinner />}>

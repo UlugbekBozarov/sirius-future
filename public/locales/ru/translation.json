@@ -39,7 +39,19 @@
   "Upcoming lessons": "Ближайшие уроки",
   "Homeworks": "Домашние задания",
   "Reports from teachers": "Отчеты от учителей",
-  "May": "мая",
-  "October": "октября",
-  "November": "ноября"
+  "January": "Январь",
+  "February": "Февраль",
+  "March": "Март",
+  "April": "Апрель",
+  "May": "Май",
+  "June": "Июнь",
+  "July": "Июль",
+  "August": "Август",
+  "September": "Сентябрь",
+  "October": "Октябрь",
+  "November": "Ноябрь",
+  "December": "Декабрь",
+  "Change schedule": "Изменить расписание",
+  "Today": "Сегодня",
+  "Select item": "Выбрать предмет"
 }

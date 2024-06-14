@@ -1,5 +1,7 @@
 export { default as Achievements } from "./achievements/Achievements";
 export { default as ArrowDown } from "./arrow/ArrowDown";
+export { default as ArrowLeft } from "./arrow/ArrowLeft";
+export { default as ArrowRight } from "./arrow/ArrowRight";
 export { default as CheckConnection } from "./checkConnection/CheckConnection";
 export { default as UnChecked } from "./chexbox/UnChecked";
 export { default as Close } from "./close/Close";

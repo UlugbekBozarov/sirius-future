@@ -326,8 +326,8 @@ const Home = () => {
                             spacing="6px"
                           >
                             <Typography variant="caption" width="70px">
-                              {dayjs(get(lesson, "fromTime")).format("hh:mm")}-
-                              {dayjs(get(lesson, "toTime")).format("hh:mm")}
+                              {dayjs(get(lesson, "fromTime")).format("HH:mm")}-
+                              {dayjs(get(lesson, "toTime")).format("HH:mm")}
                             </Typography>
                             <User />
                             <Typography variant="caption">
