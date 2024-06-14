@@ -114,7 +114,7 @@ const SignIn = () => {
                   <Logo />
                 </Box>
                 <Box display="flex" justifyContent="center" mb="16px">
-                  <Typography>
+                  <Typography variant="h3">
                     <Trans>Login to Sirius Future</Trans>
                   </Typography>
                 </Box>
@@ -162,6 +162,7 @@ const SignIn = () => {
                   <Button
                     fullWidth
                     type="submit"
+                    size="large"
                     variant="contained"
                     disabled={loading}
                     startIcon={

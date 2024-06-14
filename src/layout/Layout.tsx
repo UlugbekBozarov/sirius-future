@@ -35,15 +35,15 @@ const Layout = () => {
         sx={{
           flexGrow: 1,
           width: { xs: "100vw", md: `calc(100% - ${drawerWidth}px)` },
-          height: "calc(100vh - 76px)",
-          marginTop: "76px",
+          height: "calc(100vh - 68px)",
+          marginTop: "68px",
         }}
       >
         <Box
           height="100%"
           sx={{
             overflowY: "auto",
-            padding: { xs: "0px 10px 20px 10px", md: "0px 16px 16px 16px" },
+            padding: { xs: "0px 10px 20px 10px", md: "20px 50px 50px 32px" },
           }}
         >
           <Suspense fallback={<Spinner />}>

@@ -71,7 +71,14 @@ const User = () => {
         aria-haspopup="true"
         aria-expanded={open ? "true" : undefined}
         endIcon={<ArrowDown />}
-        sx={{ padding: 0, borderRadius: "21px" }}
+        sx={{
+          padding: 0,
+          borderRadius: "21px",
+          backgroundColor: "transparent",
+          "&:hover": {
+            backgroundColor: "transparent",
+          },
+        }}
       >
         <Avatar
           alt={get(activeProfile, "name")}

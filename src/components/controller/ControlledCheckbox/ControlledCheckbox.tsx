@@ -9,6 +9,7 @@ import {
 } from "react-hook-form";
 
 import Error from "components/error/Error";
+import { UnChecked } from "assets/icons";
 
 interface ControlledCheckboxProps {
   labelKey?: string;
@@ -49,7 +50,7 @@ const ControlledCheckbox: FC<ControlledCheckboxProps> = ({
             inputRef={ref}
             value={field?.value || false}
             checked={field?.value || false}
-            control={<Checkbox id={name} />}
+            control={<Checkbox icon={<UnChecked />} id={name} />}
           />
           <Error error={error} />
         </Fragment>
