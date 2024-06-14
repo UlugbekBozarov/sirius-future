@@ -5,10 +5,6 @@ import {
   Button,
   Card,
   Grid,
-  IconButton,
-  ListItem,
-  ListItemButton,
-  ListItemText,
   Stack,
   Table,
   TableBody,
@@ -278,18 +274,6 @@ const Home = () => {
                       </TableRow>
                     ))}
                   </TableBody>
-                  <ListItem
-                    secondaryAction={
-                      <IconButton edge="end" aria-label="delete">
-                        a
-                      </IconButton>
-                    }
-                    disablePadding
-                  >
-                    <ListItemButton dense>
-                      <ListItemText primary={`Line item`} />
-                    </ListItemButton>
-                  </ListItem>
                 </Table>
               </StyledScroll>
               <Box px="24px">

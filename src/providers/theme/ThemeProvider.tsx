@@ -45,7 +45,18 @@ const ThemeProvider = ({ children }: ThemeProviderProps) => {
                 lineHeight: "16px",
                 "& .MuiInputBase-root": {
                   height: "36px",
-                  borderRadius: "8px",
+                  boxSizing: "border-box",
+                },
+                "& .MuiInputBase-input": {
+                  height: "36px",
+                  padding: "0 14px",
+                  boxSizing: "border-box",
+                },
+                "& .MuiInputLabel-root": {
+                  top: "-9px",
+                },
+                "& .MuiInputLabel-shrink": {
+                  transform: "translate(14px, -0px) scale(0.75)", // Shrunken label uchun transformni sozlash
                 },
               },
             },
