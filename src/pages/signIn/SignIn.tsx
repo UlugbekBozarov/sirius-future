@@ -29,8 +29,8 @@ const formNames = {
 };
 
 const loginData = {
-  [formNames.username]: "demo@test.com",
-  [formNames.password]: "demo1234",
+  [formNames.username]: "",
+  [formNames.password]: "",
 };
 
 const SignIn = () => {
