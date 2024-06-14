@@ -1,6 +1,6 @@
 import { memo } from "react";
 
-const NotFound = ({ width = "100%", height = "100%", color = "#1C274C" }) => {
+const NotFound = ({ width = "100%", height = "100%" }) => {
   return (
     <svg
       width={width}

@@ -62,8 +62,6 @@ const SignIn = () => {
     ) {
       const token = generateJWT();
       const tokenData = encodeJWT(token);
-      console.log(get(data, formNames.rememberMe, false));
-      console.log(get(tokenData, "expires"));
 
       await setTimeout(() => {
         setItemCookie(
@@ -75,9 +73,8 @@ const SignIn = () => {
                   new Date().getTime() + get(tokenData, "expires")
                 ).toUTCString(),
               }
-            : undefined
+            : {}
         );
-        // setLoading(false);
 
         window.location.href = "/";
       }, 1000);

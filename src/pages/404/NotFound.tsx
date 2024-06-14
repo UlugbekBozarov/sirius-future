@@ -3,12 +3,12 @@ import { Box } from "@mui/material";
 
 import { NotFound as NotFoundImage } from "assets/icons";
 
-const NotFound = () => {
+const NotFound = ({ height = "100vh", maxHeight = "100vh" }) => {
   return (
     <Box
       maxWidth="100%"
-      height="100vh"
-      maxHeight="100vh"
+      height={height}
+      maxHeight={maxHeight}
       display="flex"
       justifyContent="center"
       alignItems="center"

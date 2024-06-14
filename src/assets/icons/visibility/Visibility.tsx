@@ -6,6 +6,7 @@ const Visibility = ({ width = "17", height = "16" }) => {
       xmlns="http://www.w3.org/2000/svg"
       width={width}
       height={height}
+      className="MuiSvgIcon-root"
       viewBox="0 0 24 24"
     >
       <path
