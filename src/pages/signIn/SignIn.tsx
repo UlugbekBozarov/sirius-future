@@ -40,8 +40,8 @@ const SignIn = () => {
 
   const formStore = useForm({
     defaultValues: {
-      [formNames.username]: loginData[formNames.username],
-      [formNames.password]: loginData[formNames.password],
+      [formNames.username]: "",
+      [formNames.password]: "",
       [formNames.rememberMe]: false,
       [formNames.visibility]: false,
       [formNames.language]: getLanguage(),
