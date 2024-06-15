@@ -29,8 +29,8 @@ const formNames = {
 };
 
 const loginData = {
-  [formNames.username]: "",
-  [formNames.password]: "",
+  [formNames.username]: "demo@test.com",
+  [formNames.password]: "demo1234",
 };
 
 const SignIn = () => {
@@ -134,6 +134,7 @@ const SignIn = () => {
                   <ControlledInput
                     labelKey="E-mail"
                     name={formNames.username}
+                    rules={{ required: true }}
                   />
                 </Box>
                 <Box mb="16px">
@@ -141,6 +142,7 @@ const SignIn = () => {
                     type={watch(formNames.visibility) ? "text" : "password"}
                     labelKey="Password"
                     name={formNames.password}
+                    rules={{ required: true }}
                     endAdornment={
                       <IconButton onClick={handleChangeVisibility}>
                         {watch(formNames.visibility) ? (
